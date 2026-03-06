@@ -1,0 +1,13 @@
+[project]
+name = "clive"
+version = "0.1.0"
+description = "CLI for Ethereum Hive test results"
+requires-python = ">=3.10"
+dependencies = ["httpx"]
+
+[project.scripts]
+clive = "clive.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

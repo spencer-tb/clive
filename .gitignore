@@ -1,0 +1,17 @@
+# Go binaries
+hapi
+hive-api
+hive-cli
+/clive
+clive-*
+
+# Build output
+dist/
+
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+
+# Misc
+uv.lock
